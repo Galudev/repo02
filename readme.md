@@ -37,7 +37,9 @@
 
         git commit -m "Título del commit"
 
-    
+    2 Hacer directamente el commit (solo para ficheros ya existentes en ambos repositorios):
+
+        git commit -am "Título del commit"
 
 - Ver la situación de los ficheros:
 
@@ -69,3 +71,13 @@
     
     \* Seguir las instrucciones del repositorio creado en GitHub
 
+- Consultar los repositorios remotos asociados:
+
+    ```
+    git remote -v
+    ```
+- Bajar cambios de remoto a local:
+
+    ```
+    git pull origin main
+    ```
